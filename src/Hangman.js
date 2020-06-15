@@ -82,7 +82,7 @@ class Hangman extends Component {
         { !gameOver ? this.generateButtons() 
         : `You lose!` }
         </p>
-        <button onClick={this.reset}>Restart?</button>
+        <button id='Hangman-reset' onClick={this.reset}>Restart?</button>
       </div>
     );
   }
